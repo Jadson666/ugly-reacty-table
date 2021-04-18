@@ -35,6 +35,15 @@
   },
   "name": "ugly-reacty-table",
   "author": "Jason Lin",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Jadson666/ugly-reacty-table"
+  },
+  "homepage": "https://github.com/Jadson666/ugly-reacty-table",
+  "keywords": [
+    "react",
+    "table"
+  ],
   "module": "dist/ugly-reacty-table.esm.js",
   "size-limit": [
     {

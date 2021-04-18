@@ -1,4 +1,5 @@
-import { ReactTable } from './ReactCard'
+// @ts-ignore
+import ReactCard from './ReactCard'
 
 // Delete me
-export default ReactTable
+export default ReactCard
