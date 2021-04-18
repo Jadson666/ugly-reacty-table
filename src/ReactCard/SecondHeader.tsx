@@ -1,10 +1,10 @@
 import React, { useState } from 'react'
 
-export const SecHeader = ({ items, onClicksArray }) => {
+export const SecHeader = ({ items, onClicksArray }: { items: any[], onClicksArray: any[] }) => {
   const [isShow, setIsShow] = useState(true)
   const [currentIndex, setCurrentIndex] = useState(0)
   return (
-    isShow && (
+    isShow ? (
       <main className='SecHeader'>
         <section className='center'>
           {items.map((v, i) => {
@@ -30,7 +30,7 @@ export const SecHeader = ({ items, onClicksArray }) => {
           HIDE
         </section>
       </main>
-    )
+    ) : null
   )
 }
 
